@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NamBarbers - Book Your Cut</title>
+  <link href="style.css" rel="stylesheet">
+	
+	
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>NamBarbers</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Barbers</a>
+      <a href="#">Haircuts</a>
+      <a href="#">Bookings</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Find Your Style, Book Your Barber</h2>
+    <input type="text" id="searchBar" placeholder="Search haircut or barber..." />
+  </section>
+
+  <!-- Haircut Options -->
+  <section class="gallery">
+    <h2>Popular Haircuts</h2>
+    <div class="card-container" id="haircutList"></div>
+	  
+  </section>
+
+  <!-- Barber Options -->
+  <section class="gallery">
+    <h2>Top Barbers</h2>
+    <div class="card-container" id="barberList"></div>
+  </section>
+
+  <!-- Booking Modal -->
+  <div id="bookingModal" class="modal">
+    <div class="modal-content">
+
+      <span id="closeModal">&times;</span>
+		
+		
+      <h2>Book Appointment</h2>
+      <p id="modalDetails"></p>
+      <button id="confirmBooking">Confirm Booking</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 NamBarbers. All rights reserved.</p>
+	  <p>Wilmer : 0816548183</p>
+	  <p>Shaquille : 0816548183</p>
+	  <p>Allen : 0816548183</p>
+	  <p>Carlos : 0816548183</p>
+  </footer>
+
+  <script src="script.js"></script>
+	
+</body>
+</html>
